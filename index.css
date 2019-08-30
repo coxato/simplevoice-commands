@@ -1,0 +1,24 @@
+.cargando{
+	animation: carga 1s infinite alternate;
+	font-size: 25px;
+	will-change: transform;
+	margin-top: 30px;
+}
+
+#oyendo{
+	animation: carga 1s infinite alternate;
+	font-size: 30px;
+	font-family: verdana;
+	color: green
+
+}
+
+@keyframes carga{
+	from{
+		opacity: 0.5;
+		transform: scale(1);
+	}to{
+		opacity: 1;
+		transform: scale(1.1);
+	}
+}
